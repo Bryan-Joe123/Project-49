@@ -1,0 +1,51 @@
+h1{
+    font-size: 100px;
+}
+
+#title{
+    display: flex;
+    /* flex-flow: column wrap; */
+    justify-content:center;
+}
+
+.pictures{
+    margin: 80px;
+    border: solid;
+    border-radius: 20px;
+}
+
+#header{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    text-align: center;
+}
+
+body{
+    background: rgb(61, 61, 61);
+    color: azure;
+}
+
+#menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(78, 78, 78);
+    padding: 10px;
+}
+
+#grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.item{
+    margin: 50px;
+}
+
+h1{
+    color:rgb(255, 166, 0);
+}
